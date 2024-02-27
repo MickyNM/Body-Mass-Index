@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('img/povrce.jpg');
+    background-size: contain;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    display: flex;
+}
+
+.background {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+.sekcija1 h1 {
+    color: rgb(248, 248, 245);
+    text-align: center;
+    font-size: 8vw;
+    line-height: 50vh;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.sekcija1 h2 {
+    color: rgb(248, 248, 245);
+    text-align: center;
+    font-size: 6vw;
+    white-space: nowrap;
+    line-height: 50vh;
+    transition: all 0.3s ease;
+}
+
+.sekcija1 h1 span {
+    opacity: 0;
+    transition: all 0.9s ease;
+    transform: translateY(50px);
+    display: inline-block;
+}
+
+.sekcija1 .fadeMove {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.sekcija1 h2 span {
+    opacity: 0;
+    transition: all 0.3s ease;
+    transform: translateY(150px);
+    display: inline-block;
+}
+
+.sekcija1 .fadeMove2 {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.sekcija2 .images {
+    display: flex;
+}
+
+.sekcija2 .images img.slajdSDesna {
+    width: 100%;
+    height: 10%;
+    transition: all 4s ease;
+    opacity: 1;
+    transform: translateX(-30%);
+}
+
+.sekcija2 .images img.slajdSLeva {
+    width: 100%;
+    height: 10%;
+    transition: all 4s ease;
+    opacity: 1;
+    transform: translateX(30%);
+}
+
+.sekcija2 .images img.animated {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+.kalkulator h3 {
+    font-size: 25px;
+
+}
+
+.kalkulator button {
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: orange;
+    margin: 3em auto;
+    text-align: center;
+}
+
+p {
+    border: 3px solid brown;
+    border-radius: 10px;
+    min-width: 14em;
+    min-height: 6em;
+    font-size: 24px;
+    padding: 2em;
+    margin: 40px;
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.8);
+}
+
+.kalkulator input {
+    display: flex;
+    margin: auto 40px;
+    height: 3em;
+    font-size: 1em;
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.tips {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 50px;
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.tips .slim-tips {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 500px;
+    align-items: center;
+    border: 3px solid brown;
+    padding: 1em;
+    background-color: rgb(0, 0, 0, 0.9);
+    margin-right: 20px;
+}
+
+.tips .fat-tips {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 500px;
+    align-items: center;
+    border: 3px solid brown;
+    padding: 1em;
+    background-color: rgb(0, 0, 0, 0.9);
+    margin-right: 20px;
+}
+
+.list {
+    display: flex;
+}
+
+.main {
+    text-align: center;
+    border-bottom: 3px solid brown;
+    letter-spacing: 3px;
+    font-size: 3vw;
+}
+
+h2 {
+    margin-bottom: 20px;
+    padding: 10px 0px 20px 10px;
+}
+
+.title a {
+    color: #ffff99;
+}
+
+.title a:HOVER {
+    color: #d00b0b;
+}
+
+.image {
+    padding: 1em;
+}
+
+
+
+.saveti h3 {
+    margin-top: 1.5em;
+    text-align: center;
+    font-size: 22px;
+    white-space: nowrap;
+    font-size: 5vw;
+}
+
+.saveti img {
+    margin-top: 5em;
+    border-radius: 30px;
+    filter: brightness(0.8);
+    max-width: 100%;
+}
+
+.data h2 {
+    font-size: 1.5vw;
+}

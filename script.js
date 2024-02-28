@@ -113,3 +113,11 @@ const racunanjeBMI = () => {
         alert(`Popunite prazna polja!`);
     }
 }
+
+const p = document.querySelector('p');
+    p.addEventListener("mouseover", function(e){   
+    let x = e.offsetX;
+    let y = e.offsetY;
+    p.style.backgroundColor = `rgb(${x%255}, ${y%255}, ${(x + y)%255})`; 
+    
+});

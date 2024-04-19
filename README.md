@@ -1,5 +1,8 @@
 # Body-Mass-Index
 ## Web application for calculating Body Mass Index, with tips. <br> Built in JavaScript, with HTML and CSS
+Try it! 
+https://body-mass-index-sigma.vercel.app/
+
 ![1](https://github.com/MickyNM/Body-Mass-Index/assets/140019715/4fcc7516-08e2-4273-8907-a0b5b66c06ed)
 
 ![2](https://github.com/MickyNM/Body-Mass-Index/assets/140019715/e258de34-995f-458e-82f0-f2c1360b5035)
